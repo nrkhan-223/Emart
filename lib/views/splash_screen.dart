@@ -1,7 +1,6 @@
-import 'package:emart/consts/colors.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:emart/consts/consts.dart';
 
+import '../common_design/applogo_design.dart';
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
 
@@ -17,9 +16,13 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: Column(
           children: [
-            Container(
-
-            )
+            280.heightBox,
+            applogoDesign(),
+            10.heightBox,
+            appname.text.fontFamily(bold).size(22).white.make(),
+            const Spacer(),
+            appversion.text.size(15).white.make(),
+            10.heightBox,
           ],
         ),
       ),
