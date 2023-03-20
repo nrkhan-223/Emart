@@ -1,5 +1,5 @@
 import 'package:emart/consts/consts.dart';
 
 Widget applogoDesign(){
-  return Image.asset(icAppLogo).box.white.size(77, 77).padding(const EdgeInsets.all(0)).rounded.make();
+  return Image.asset(icAppLogo).box.white.size(80, 83).padding(const EdgeInsets.all(3)).rounded.make();
 }
